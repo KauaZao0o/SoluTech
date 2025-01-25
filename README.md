@@ -1,2 +1,2 @@
 # SoluTech
-Landing Page
+View site: https://kauazao0o.github.io/SoluTech/
