@@ -17,6 +17,4 @@ Create an interface that clearly and professionally presents the services offere
 <ul>
   <li>HTML5 and CSS3: For structuring and styling the page using modern development practices.</li>
   <li>JavaScript: To add interactive features like form validation and animations.</li>
-  <li>Bootstrap: To streamline the development of the responsive layout.</li>
-  <li>Google Fonts and Icons: For a professional design and clean visuals.</li>
 </ul>
