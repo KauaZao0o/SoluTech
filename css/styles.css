@@ -1,3 +1,5 @@
+/* _______________________________________________________________index.html_______________________________________________________________ */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -7,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background: #158fc7fb;
+    background: #155cc7a6;
     color: #fff;
     padding: 0;
     display: flex;
@@ -40,7 +42,7 @@ header h1 {
 .hero img {
     max-width: 100%;
     height: auto;
-    flex: 1 1 300px;
+    flex: 1 1 200px;
 }
 
 .hero-text {
@@ -50,12 +52,12 @@ header h1 {
 
 .hero-text h1 {
     font-size: 2.5rem;
-    color: #0056b3;
+    color: #0056b3
 }
 
 .hero-text p {
     font-size: 1.2rem;
-    margin: 1rem 0;
+    margin: 10px;
 }
 
 .cta {
@@ -100,7 +102,7 @@ header h1 {
 }
 
 .contact {
-    background: #0056b3;
+    background: #155cc7a6;
     color: #fff;
     text-align: center;
     padding: 2rem;
@@ -118,7 +120,7 @@ header h1 {
 .contact a {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    color: #0056b3;
+    color: #155cc7a6;
     background: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -195,6 +197,7 @@ header h1 {
 .profile-info {
     max-width: 500px;
     text-align: left;
+    margin: 10px;
 }
 
 .profile-info h3 {
@@ -239,11 +242,13 @@ header h1 {
 .contact-left {
     flex: 1;
     padding-right: 2rem;
+    margin-left: 200px;
 }
 
 .contact-right {
     flex: 1;
     text-align: left;
+    margin-right: 200px;
 }
 
 .contact-info h2 {
@@ -310,12 +315,74 @@ header h1 {
 }
 
 footer {
-    background: #0056b3;
+    background: #155cc7a6;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+/* _______________________________________________________________contact.html_______________________________________________________________ */
+
+.contact-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.contact-page {
+    flex: 1;
+}
+
+.contact-success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Garantir que ocupe o espaço total do container */
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte estilizada */
+    color: #333; /* Cor do texto */
+}
+
+.contact-success h1 {
+    font-size: 2.5rem; /* Tamanho maior para o título */
+    font-weight: bold; /* Negrito para destaque */
+    color: #007BFF; /* Azul vibrante */
+    margin-bottom: 1rem;
+}
+
+.contact-success p {
+    font-size: 1.25rem; /* Tamanho de fonte para o parágrafo */
+    line-height: 1.6; /* Espaçamento confortável */
+    margin-bottom: 2rem;
+}
+
+.contact-success button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745; /* Cor de fundo verde */
+    border: none;
+    border-radius: 0.5rem; /* Borda arredondada */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-success button:hover {
+    background-color: #218838; /* Efeito de hover */
+}
+
+
+/* _______________________________________________________________mobile_______________________________________________________________ */
+
+@media (max-width: 1280px) {
+    .contact-left, .contact-right {
+        margin: auto;               
+    }
+}
+
 
 @media (max-width: 768px) {
     .hero {
@@ -341,7 +408,6 @@ footer {
     /* logo */
 
     header {
-        background: #0056b3;
         color: #fff;
         padding: 1rem 0;
         text-align: center;
@@ -384,6 +450,7 @@ footer {
     .contact-left, .contact-right {
         flex: 1 1 100%;
         padding-right: 0;
+        margin: auto;
     }
 
     .contact-info form {
