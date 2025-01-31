@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/ico" href="./assets/favicon/favicon-16x16.png"/>
     <title>SoluTech - Soluções & Tecnologia</title>
 </head>
 <body>
     <header>
         <a href="#home" id="home"><img src="./assets/img/SoluTech.png" alt="Logo da SoluTech" class="logo"></a>
+        <button id="theme-toggle" aria-label="Alternar tema">🌓</button>
     </header>
 
     <div class="container">
@@ -80,17 +81,7 @@
         
                     <button type="submit" class="cta">Enviar</button>
                 </form>
-                <script>
-                    document.getElementById('myForm').addEventListener('submit', function(event) {
-                      event.preventDefault(); // Impede o envio padrão do formulário
-                      
-                      // Lógica para processar os dados do formulário (se necessário)
-                      console.log("Formulário enviado!");
-                
-                      // Redireciona para outra página
-                      window.location.href = "pages/contact.html";
-                    });
-                  </script>
+                <script src="assets/scripts/script.js"></script>
             </div>
             <div class="contact-right">
                 <h3>Fale Conosco!</h3>
@@ -102,5 +93,6 @@
     <footer>
         <p>&copy; 2025 SoluTech - Soluções & Tecnologia. Todos os direitos reservados.</p>
     </footer>
+    <script src="assets/scripts/theme-toggle.js"></script>
 </body>
 </html>

@@ -7,6 +7,113 @@ body {
     color: #333;
 }
 
+/* Estilos para o tema escuro */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff; /* Cor do texto padrão no tema escuro */
+}
+
+/* Parágrafos na seção sobre a SoluTech */
+body.dark-theme .about-solutech p {
+    color: #ffffff; /* Cor branca para os parágrafos na seção sobre */
+}
+
+/* Parágrafo na seção do perfil */
+body.dark-theme .profile-info p {
+    color: #ffffff; /* Cor branca para o parágrafo na seção do perfil */
+}
+
+/* Labels e placeholders no formulário de contato */
+body.dark-theme .contact-info label {
+    color: #ffffff; /* Cor branca para os labels */
+}
+
+body.dark-theme .contact-info input::placeholder,
+body.dark-theme .contact-info textarea::placeholder {
+    color: #cccccc; /* Cor cinza clara para os placeholders */
+}
+
+/* Parágrafo na seção de contato */
+body.dark-theme .contact-right p {
+    color: #ffffff; /* Cor branca para o parágrafo na seção de contato */
+}
+
+/* Header no tema escuro */
+body.dark-theme header {
+    background-color: #1a1a1a;
+}
+
+/* Título na seção hero no tema escuro */
+body.dark-theme .hero-text h1 {
+    color: #0056b3; /* Mantém a cor azul */
+}
+
+/* Features no tema escuro */
+body.dark-theme .feature {
+    background-color: #1e1e1e;
+    color: #ffffff; /* Cor do texto nas features */
+}
+
+body.dark-theme .feature h2 {
+    color: #0056b3; /* Cor azul para títulos das features */
+}
+
+/* Seção sobre a SoluTech no tema escuro */
+body.dark-theme .about-solutech {
+    background-color: #1e1e1e;
+    color: #ffffff; /* Cor do texto na seção sobre */
+}
+
+body.dark-theme .about-solutech h2 {
+    color: #0056b3; /* Cor azul para o título da seção sobre */
+}
+
+/* Seção de contato no tema escuro */
+body.dark-theme .contact-info {
+    background-color: #1e1e1e;
+    color: #ffffff; /* Cor do texto na seção de contato */
+}
+
+body.dark-theme .contact-info h2,
+body.dark-theme .contact-info h3 {
+    color: #0056b3; /* Cor azul para títulos na seção de contato */
+}
+
+/* Inputs e textarea no tema escuro */
+body.dark-theme .contact-info input,
+body.dark-theme .contact-info textarea {
+    background-color: #2d2d2d;
+    color: #ffffff; /* Cor do texto nos inputs */
+    border-color: #444;
+}
+
+body.dark-theme .contact-info input:focus,
+body.dark-theme .contact-info textarea:focus {
+    border-color: #0056b3; /* Cor da borda ao focar */
+}
+
+/* Footer no tema escuro */
+body.dark-theme footer {
+    background-color: #1a1a1a;
+    color: #ffffff; /* Cor do texto no footer */
+}
+
+
+/* Ícone do GitHub no tema escuro */
+body.dark-theme .profile-info a img {
+    filter: invert(1); /* Inverte a cor do ícone (preto vira branco) */
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
 /* Header */
 header {
     background: #155cc7a6;
